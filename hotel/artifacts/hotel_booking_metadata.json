@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hotel/booking.sol": "hotel_booking"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hotel/booking.sol": {
+			"keccak256": "0xe88578e74f88f41f293ecb28e7cc781ffea223e74395ea1d2150a8f3a2203bf4",
+			"urls": [
+				"bzz-raw://2887be7408b91699260734ca8b74e172efacbc883822940803c9fb328c5d9eda",
+				"dweb:/ipfs/QmdjSUwP16WMpaTMEwYos16jVU2ou6EV8F5fZSevdP3fFE"
+			]
+		}
+	},
+	"version": 1
+}
